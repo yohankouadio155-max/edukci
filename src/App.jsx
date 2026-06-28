@@ -32,7 +32,7 @@ const MODULES = {
     lessons: [
       {
         id: "o1", title: "Le genre des noms",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 En français, chaque nom est masculin ou féminin. En règle générale, on forme le féminin en ajoutant un « e » au masculin.
 
@@ -63,7 +63,7 @@ Les mots terminés par « -tion », « -sion », « -aison », « -eur » (abstr
       },
       {
         id: "o2", title: "Le pluriel des noms et adjectifs",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 En règle générale, on ajoute un « s » au singulier pour former le pluriel.
 → un caramel → des caramels | un album → des albums
@@ -95,16 +95,16 @@ Les mots empruntés à des langues étrangères suivent la règle générale.
       },
       {
         id: "o3", title: "L'accord de l'adjectif de couleur",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
-**Les adjectifs de couleur simples** s'accordent normalement en genre et en nombre.
+**Les adjectifs de couleur simples** s\'accordent normalement en genre et en nombre.
 → des robes bleues | des pantalons noirs | une veste blanche
 
-**Les adjectifs de couleur dérivés d'un nom** sont INVARIABLES.
+**Les adjectifs de couleur dérivés d\'un nom** sont INVARIABLES.
 → des chaussures marron (nom de fruit)
 → des yeux noisette | des robes orange | des pulls crème
 
-**Exception :** rose, fauve, mauve, écarlate, incarnat → s'accordent !
+**Exception :** rose, fauve, mauve, écarlate, incarnat → s\'accordent !
 → des joues roses | des teintes mauves
 
 **Les adjectifs de couleur composés** (deux mots) sont INVARIABLES.
@@ -112,12 +112,12 @@ Les mots empruntés à des langues étrangères suivent la règle générale.
 
 **Exemples tirés du livre :**
 → Cléopâtre avait les cheveux noirs et les yeux marron. ✓
-(noirs s'accorde, marron est invariable)
+(noirs s\'accorde, marron est invariable)
 → des ceintures bleu foncé ✓ (composé = invariable)
 → ses bijoux vert émeraude ✓ (composé = invariable)
 
 **PENSEZ-Y !**
-Quand deux adjectifs de couleur sont coordonnés, ils restent invariables s'ils décrivent ensemble une couleur unique.
+Quand deux adjectifs de couleur sont coordonnés, ils restent invariables s\'ils décrivent ensemble une couleur unique.
 → une robe à carreaux bleus et blancs ✓ (deux couleurs distinctes → accord)`,
         quiz: [
           { q: "Quelle phrase est correctement écrite ?", choices: ["des robes oranges", "des robes orange", "des robe orange", "des robes oranger"], answer: 1, explanation: "Orange est un nom de fruit utilisé comme adjectif de couleur : il est invariable → des robes orange." },
@@ -127,12 +127,12 @@ Quand deux adjectifs de couleur sont coordonnés, ils restent invariables s'ils 
       },
       {
         id: "o4", title: "Les homophones a/à, et/est, son/sont",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 **a / à**
 → « a » = verbe avoir (on peut le remplacer par « avait »)
 → « à » = préposition (lieu, temps, manière…)
-✓ Il a mangé. (il avait mangé ✓) | Elle va à l'école.
+✓ Il a mangé. (il avait mangé ✓) | Elle va à l\'école.
 
 **et / est**
 → « et » = conjonction de coordination (= « et puis »)
@@ -149,13 +149,13 @@ Quand deux adjectifs de couleur sont coordonnés, ils restent invariables s'ils 
 → « où » = lieu ou question (= « dans lequel »)
 ✓ Café ou thé ? | Je ne sais pas où il est.
 
-**ces / ses / c'est / s'est**
+**ces / ses / c\'est / s\'est**
 → « ces » = démonstratif pluriel (ces choses-là)
 → « ses » = possessif pluriel (les siens)
-→ « c'est » = ce + est | « s'est » = se + est (pronominal)
+→ « c\'est » = ce + est | « s\'est » = se + est (pronominal)
 
 **PENSEZ-Y !**
-Astuce universelle : essayez de remplacer le mot douteux par sa forme à l'imparfait. Si ça marche → verbe. Sinon → mot grammatical.`,
+Astuce universelle : essayez de remplacer le mot douteux par sa forme à l\'imparfait. Si ça marche → verbe. Sinon → mot grammatical.`,
         quiz: [
           { q: "Complétez : « Elle ___ allée au marché et ___ rentrée tard. »", choices: ["a / est", "est / a", "à / est", "a / a"], answer: 0, explanation: "« a allée » : verbe avoir (elle avait allée ✓). « est rentrée » : verbe être (elle était rentrée ✓)." },
           { q: "Quelle phrase est correcte ?", choices: ["Les enfants son fatigués.", "Les enfants sont fatigués.", "Les enfant sont fatigués.", "Les enfants sons fatigués."], answer: 1, explanation: "« sont » = verbe être (les enfants étaient fatigués ✓). « son » serait un possessif (son livre)." },
@@ -169,9 +169,9 @@ Astuce universelle : essayez de remplacer le mot douteux par sa forme à l'impar
     lessons: [
       {
         id: "g1", title: "L'accord du verbe avec son sujet",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
-Le verbe s'accorde toujours avec son sujet en personne et en nombre.
+Le verbe s\'accorde toujours avec son sujet en personne et en nombre.
 
 **Règle générale :**
 → Édith Piaf vous aurait certainement émus. (sujet singulier → aurait)
@@ -181,19 +181,19 @@ Le verbe s'accorde toujours avec son sujet en personne et en nombre.
 → Aucun de ses admirateurs ne manquait un concert. (singulier)
 
 **Sujet collectif + complément :**
-→ Un tas d'idées traversait la tête. (sujet = « un tas » → singulier)
-→ La plupart l'ont oublié. (plupart → pluriel)
-→ L'ensemble des élèves a appris. (ensemble → singulier)
+→ Un tas d\'idées traversait la tête. (sujet = « un tas » → singulier)
+→ La plupart l\'ont oublié. (plupart → pluriel)
+→ L\'ensemble des élèves a appris. (ensemble → singulier)
 
 **Tout le monde, chacun :**
 → Tout le monde était sous le charme. (singulier)
 
 **Qui relatif :**
-→ C'est toi qui apprendras. (qui reprend « toi » → 2ᵉ pers.)
+→ C\'est toi qui apprendras. (qui reprend « toi » → 2ᵉ pers.)
 → Moi qui aurais tant aimé la voir ! (qui reprend « moi » → 1ʳᵉ pers.)
 
 **PENSEZ-Y !**
-Pour trouver le sujet, posez la question « Qui est-ce qui... ? » ou « Qu'est-ce qui... ? » avant le verbe.`,
+Pour trouver le sujet, posez la question « Qui est-ce qui... ? » ou « Qu\'est-ce qui... ? » avant le verbe.`,
         quiz: [
           { q: "« Aucun de ses amis ne ___ venu. »", choices: ["sont", "est", "ont", "êtes"], answer: 1, explanation: "« Aucun » est singulier → le verbe est au singulier : n'est venu." },
           { q: "« C'est toi qui ___ raison. »", choices: ["a", "ont", "as", "avez"], answer: 2, explanation: "« Qui » reprend « toi » (2ᵉ pers. sing.) → « qui as raison »." },
@@ -202,15 +202,15 @@ Pour trouver le sujet, posez la question « Qui est-ce qui... ? » ou « Qu'est-
       },
       {
         id: "g2", title: "Les types et formes de phrases",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 **Les 4 types de phrases :**
 
 → **Déclarative** : affirme ou infirme quelque chose.
-  Il fait beau aujourd'hui.
+  Il fait beau aujourd\'hui.
 
 → **Interrogative** : pose une question. Se termine par « ? »
-  Fait-il beau ? | Est-ce qu'il fait beau ?
+  Fait-il beau ? | Est-ce qu\'il fait beau ?
 
 → **Impérative** : exprime un ordre, conseil, prière.
   Viens ici ! | Faites attention.
@@ -227,11 +227,11 @@ Pour trouver le sujet, posez la question « Qui est-ce qui... ? » ou « Qu'est-
 ne… pas | ne… plus | ne… jamais | ne… rien | ne… personne | ne… que (restriction)
 
 **Règle importante :**
-Après la négation, l'article indéfini (un, une, des) devient « de/d' ».
-→ J'ai des amis. → Je n'ai pas d'amis. ✓
-→ J'ai un chien. → Je n'ai pas de chien. ✓
-Exception : verbe être → l'article ne change pas.
-→ C'est un problème. → Ce n'est pas un problème. ✓`,
+Après la négation, l\'article indéfini (un, une, des) devient « de/d\' ».
+→ J\'ai des amis. → Je n\'ai pas d\'amis. ✓
+→ J\'ai un chien. → Je n\'ai pas de chien. ✓
+Exception : verbe être → l\'article ne change pas.
+→ C\'est un problème. → Ce n\'est pas un problème. ✓`,
         quiz: [
           { q: "« Ne mange pas si vite ! » est une phrase :", choices: ["déclarative affirmative", "impérative négative", "interrogative", "exclamative"], answer: 1, explanation: "C'est un ordre (type impératif) exprimé à la forme négative (ne…pas)." },
           { q: "Transformez « J'ai des amis » à la forme négative :", choices: ["Je n'ai pas des amis.", "Je n'ai pas d'amis.", "Je n'ai pas les amis.", "Je pas ai amis."], answer: 1, explanation: "Après la négation, « des » devient « de/d' » → Je n'ai pas d'amis." },
@@ -240,7 +240,7 @@ Exception : verbe être → l'article ne change pas.
       },
       {
         id: "g3", title: "Lorsque le sujet contient une coordination",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 Quand deux sujets au singulier sont coordonnés par « et », le verbe se met au pluriel.
 → Pierre et Marie étudient ensemble. ✓
@@ -248,7 +248,7 @@ Quand deux sujets au singulier sont coordonnés par « et », le verbe se met au
 
 **Avec « ou » et « ni » :**
 Si les sujets sont coordonnés par « ou » ou « ni », le verbe peut être singulier ou pluriel selon le sens.
-→ Lui ou elle viendra (l'un ou l'autre, pas les deux → sing.)
+→ Lui ou elle viendra (l\'un ou l\'autre, pas les deux → sing.)
 → Ni lui ni elle ne sont venus. (les deux absents → plur.)
 
 **Sujet collectif :**
@@ -256,7 +256,7 @@ Si un seul des sujets coordonnés inclut « vous », le verbe se met à la 2ᵉ 
 → Vous et votre mari avez obtenu le prix Nobel. ✓
 
 **Infinitifs coordonnés :**
-Deux infinitifs sujets coordonnés par « et » → le verbe peut rester au singulier s'ils forment une seule idée.
+Deux infinitifs sujets coordonnés par « et » → le verbe peut rester au singulier s\'ils forment une seule idée.
 → Permettre de nouveaux progrès et faire avancer la science restaient leur motivation. ✓
 
 **PENSEZ-Y !**
@@ -275,7 +275,7 @@ Si les deux sujets résument par « tout » → singulier.
     lessons: [
       {
         id: "c1", title: "Le présent de l'indicatif",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 **Groupe 1 (-er)** : je chant**e**, tu chant**es**, il chant**e**, nous chant**ons**, vous chant**ez**, ils chant**ent**
 
@@ -297,7 +297,7 @@ Si les deux sujets résument par « tout » → singulier.
 → manger → nous mangeons (e maintenu devant o pour garder [ʒ])
 
 **PENSEZ-Y !**
-« Si vous dites à quelqu'un… » et non « disez » : dites est la 2ᵉ pers. plur. de « dire » (irrégulier, comme faites, êtes).`,
+« Si vous dites à quelqu\'un… » et non « disez » : dites est la 2ᵉ pers. plur. de « dire » (irrégulier, comme faites, êtes).`,
         quiz: [
           { q: "Conjuguez « finir » à la 1ʳᵉ pers. du pluriel :", choices: ["nous finons", "nous finissons", "nous finissez", "nous finions"], answer: 1, explanation: "Finir est du 2ᵉ groupe → nous finissons (avec -iss-)." },
           { q: "Complétez : « Si vous ___ la vérité, cela ira mieux. » (dire)", choices: ["disez", "dites", "dites", "direz"], answer: 1, explanation: "« Dire » est irrégulier : vous dites (et non vous disez)." },
@@ -306,9 +306,9 @@ Si les deux sujets résument par « tout » → singulier.
       },
       {
         id: "c2", title: "L'imparfait de l'indicatif",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
-L'imparfait exprime :
+L\'imparfait exprime :
 → Une action habituelle dans le passé : Chaque soir, il lisait.
 → Une description dans le passé : La maison était grande.
 → Une action en cours interrompue : Je dormais quand il est arrivé.
@@ -318,19 +318,19 @@ Radical de la 1ʳᵉ pers. du pluriel au présent + terminaisons :
 **-ais, -ais, -ait, -ions, -iez, -aient**
 
 → nous finissons → je finiss**ais**, tu finiss**ais**, il finiss**ait**, nous finiss**ions**…
-→ nous allons → j'all**ais**, tu all**ais**, il all**ait**…
+→ nous allons → j\'all**ais**, tu all**ais**, il all**ait**…
 
-**Verbes en -cer à l'imparfait :**
-→ ses visites s'espaçaient (c + aient → ç devant a) ✓
+**Verbes en -cer à l\'imparfait :**
+→ ses visites s\'espaçaient (c + aient → ç devant a) ✓
 
-**Verbes en -ger à l'imparfait :**
+**Verbes en -ger à l\'imparfait :**
 → cela ne me dérangeait pas ✓
 → nous partagions (terminaison en -ions → pas de e après g) ✓
 
-**Exception :** ÊTRE → j'étais, tu étais, il était, nous étions, vous étiez, ils étaient
+**Exception :** ÊTRE → j\'étais, tu étais, il était, nous étions, vous étiez, ils étaient
 
 **PENSEZ-Y !**
-Les 1ʳᵉ et 2ᵉ pers. du pluriel de l'imparfait (-ions, -iez) ressemblent au subjonctif présent mais c'est bien l'imparfait si l'action est passée.`,
+Les 1ʳᵉ et 2ᵉ pers. du pluriel de l\'imparfait (-ions, -iez) ressemblent au subjonctif présent mais c\'est bien l\'imparfait si l\'action est passée.`,
         quiz: [
           { q: "Conjuguez « manger » à l'imparfait, 1ʳᵉ pers. sing. :", choices: ["je mangeais", "je mangais", "je mangeait", "je mangait"], answer: 0, explanation: "Verbe en -ger → radical « mange » + ais = je mangeais (e conservé devant a)." },
           { q: "Conjuguez « placer » à l'imparfait, 3ᵉ pers. plur. :", choices: ["ils placaient", "ils plaçaient", "ils placeaient", "ils placeait"], answer: 1, explanation: "Verbe en -cer → c devient ç devant a : ils plaçaient." },
@@ -339,7 +339,7 @@ Les 1ʳᵉ et 2ᵉ pers. du pluriel de l'imparfait (-ions, -iez) ressemblent au 
       },
       {
         id: "c3", title: "Le futur simple de l'indicatif",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 Le futur simple exprime une action à venir ou une vérité générale future.
 
@@ -352,8 +352,8 @@ Infinitif (entier pour -er et -ir) + terminaisons :
 
 **Futurs irréguliers à connaître absolument :**
 → être → je **ser**ai
-→ avoir → j'**aur**ai
-→ aller → j'**ir**ai
+→ avoir → j\'**aur**ai
+→ aller → j\'**ir**ai
 → faire → je **fer**ai
 → pouvoir → je **pourr**ai
 → vouloir → je **voudr**ai
@@ -374,11 +374,10 @@ Le futur se distingue du conditionnel par la 1ʳᵉ pers. sing. :
       },
       {
         id: "c4", title: "Le passé composé",
-        theory: `**CE QU'IL FAUT SAVOIR**
+        theory: `**CE QU\'IL FAUT SAVOIR**
 
 Le passé composé exprime une action terminée dans le passé.
 
 **Formation :** auxiliaire (avoir ou être) au présent + participe passé
 
-**Avec AVOIR** (majorité des verbes) :
-→ J'ai mangé, tu as fini, il a pr
+**Avec AVOIR** (
